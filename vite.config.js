@@ -10,9 +10,9 @@ import vuetify from 'vite-plugin-vuetify'
 export default defineConfig({
   base: './',
   plugins: [
-		vue(),
-		vuetify({ autoImport: true }),
-],
+    vue(),
+    vuetify({ autoImport: true })
+  ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
